@@ -1,0 +1,11 @@
+<h2>Example - Count Increment/Decrement</h2>
+<p>Count is: {{ count() }}</p>
+<p>
+	<button mat-raised-button style="margin-right: 1rem" color="primary" (click)="increaseCount()">Increase</button>
+	<button mat-raised-button style="margin-right: 1rem" color="primary" (click)="decreaseCount()">Decrease</button>
+	<button mat-raised-button color="secondary" (click)="setCount(5)">Set to 5</button>
+	<button mat-raised-button color="secondary" (click)="setCount(0)">Reset</button>
+</p>
+
+<h2>Example - Computed</h2>
+<p>Computed count = {{ count() }} + 2 -> {{ doubleCount() }}</p>
